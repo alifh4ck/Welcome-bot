@@ -18,7 +18,7 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN =8671594553:AAFWS0yaL25U9zQClTW_wEasiqasYJ0-nIU
+BOT_TOKEN ="8671594553:AAFWS0yaL25U9zQClTW_wEasiqasYJ0-nIU"
 DB_PATH = Path(os.getenv("DB_PATH", str(Path(__file__).with_name("data") / "welcome.sqlite3")))
 
 DEFAULT_DELETE_SECONDS = 30
