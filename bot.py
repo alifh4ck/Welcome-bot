@@ -31,7 +31,7 @@ if ENV_FILE.exists():
         if key.strip() == "BOT_TOKEN" and not os.getenv("BOT_TOKEN"):
             os.environ["BOT_TOKEN"] = value.strip().strip('"').strip("'")
 
-BOT_TOKEN =
+BOT_TOKEN ="8671594553:AAG1E-Zt_G-hHCW3KIKESXBRdvykYPioX9g"
 DB_PATH = Path(os.getenv("DB_PATH", str(Path(__file__).with_name("data") / "welcome.sqlite3")))
 
 DEFAULT_DELETE_SECONDS = 30
